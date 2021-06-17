@@ -8,6 +8,9 @@ ts<!DOCTYPE ;html>
     function myFunction() {
         document.getElementById("demo").innerHTML = "Paragraph changed."
     }
+    function Nandi(Webpage) {
+        console.log('Nandi' + website)
+    }
     <script>
         src= "https://zamashangase.github.io/WSOA3028A_1664818/index.html/js/myScript.js"
     </script>
@@ -20,6 +23,9 @@ ts<!DOCTYPE ;html>
     <button type= "button"
     onclick="myFunction()"Try It></button>
     
+    let c = 1.01 + 2.02;
+    console.log(c.toString));
+    console.log(c.toString));
 
 </body>
 </html>
