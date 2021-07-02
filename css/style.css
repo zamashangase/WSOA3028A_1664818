@@ -24,7 +24,7 @@ header{
     display: -webkit-flex;
     display: -moz-box;
     display: -ms-flexbox;
-    display: flex;
+    display: grid;
     justify-content: space-between;
     align-items: center;
     color: blueviolet;
@@ -36,6 +36,7 @@ header h2{
 header nav{
     display: -webkit-flex;
     display: -moz-box;
+    display: flexbox;
     display: -ms-flexbox;
     display: flex;
 }
@@ -44,10 +45,10 @@ header nav li{
 
 }
 header nav li:first-child{
-margin-left: 0 ;
+margin-left: 0;
 }
 header nav li:last-child{
-    margin-right: 0 ;
+    margin-right: 0;
     }
 @media (max-width: 700px){
     header{
