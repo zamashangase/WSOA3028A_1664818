@@ -3,13 +3,19 @@
     padding: 0;
     box-sizing: border-box;
 }
-.even-columns{
+.content-sidebar{
     display: flex;
+    gap: 1em;
+    flex-wrap: wrap;
 }
-.even-columns{
-flex-basis: 100%;
+.content-sidebar > *:nth-child(1){
+    flex: 1 1 70%;
+    min-width: 30ch;
 }
-
+.content-sidebar > *:nth-child(1){
+    flex: 1 1 25%;
+    min-width: 15ch;
+}
 body{
     font-family: cursive;
 }
