@@ -16,37 +16,41 @@
     flex: 1 1 70%;
     min-width: 30ch;
 }
-.content-sidebar > *:nth-child(1){
+.content-sidebar > *:nth-child(2){
     flex: 1 1 25%;
     min-width: 15ch;
 }
 body{
-    font-family: cursive;
+    font-family:Georgia, 'Times New Roman', Times, serif;
 }
-ul,nav{
+nav ul{
+    margin: 0;
+    padding: 0;
     list-style: none;
 }
+nav li{
+    display: inline-block;
+    margin-left: 70px;
+    padding-top: 25px;
+}
 a{
-    text-decoration: none;
+    text-decoration: snow;
     cursor: pointer;
-    color: rgb(0, 20, 20);
+    color: rgb(253, 253, 253);
 
 }
 header{
-    position: absolute;
+    position: sticky;
     top: 0;
-    left: 0;
+    right: 0;
     z-index: 0;
     width: 100%;
-    display: -webkit-flex;
-    display: -moz-box;
-    display: -ms-flexbox;
-    display: grid;
+    
     justify-content: space-between;
     align-items: center;
-    color: ivory;
-    padding: 35px 100px 0;
-    background-color: darkviolet;
+    color: rgb(0, 0, 0);
+    padding: 35px 10px 0;
+    background-color:#C8A2C8;
 }
 header h2{
     text-transform: uppercase;
