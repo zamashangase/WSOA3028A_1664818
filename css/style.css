@@ -3,6 +3,13 @@
     padding: 0;
     box-sizing: border-box;
 }
+.even-columns{
+    display: flex;
+}
+.even-columns{
+flex-basis: 100%;
+}
+
 body{
     font-family: cursive;
 }
