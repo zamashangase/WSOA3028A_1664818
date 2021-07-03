@@ -22,6 +22,7 @@
 }
 body{
     font-family:Georgia, 'Times New Roman', Times, serif;
+    
 }
 nav ul{
     margin: 0;
@@ -70,4 +71,39 @@ header nav{
 
     }
 }
-    
+*{
+    box-sizing: border-box;
+}
+body{
+    display: flex;
+    min-width: 200vh;
+    flex-direction: column;
+    margin: 0;
+}
+#main{
+    display: flex;
+    flex: 1;
+}
+#main > article{
+    flex: 1;
+}
+@media screen and (max-width: 575px){
+    #main{
+        flex-direction: row;
+
+    }
+    #main > nav,
+    #main > aside {
+        flex: 0 0 20vw;
+    }
+}
+.toggle{
+    order: 1;
+    font-size: 20;
+}
+.item{
+    order: 3;
+    width: 100;
+    text-align: center;
+    display: none;
+}
