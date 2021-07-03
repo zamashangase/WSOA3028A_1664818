@@ -1,8 +1,4 @@
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
+
 .container{
     width: 80%;
     margin: 0 auto;
@@ -44,17 +40,7 @@ a{
 
 }
 header{
-    position: sticky;
-    top: 0;
-    right: 0;
-    z-index: 0;
-    width: 100%;
-    
-    justify-content: space-between;
-    align-items: center;
-    color: rgb(0, 0, 0);
-    padding: 35px 10px 0;
-    background-color:#C8A2C8;
+background-color:#C8A2C8;
 }
 header h2{
     text-transform: uppercase;
