@@ -87,6 +87,7 @@ body{
 #main > article{
     flex: 1;
 }
+/* mobile responsive layout*/
 @media screen and (max-width: 575px){
     #main{
         flex-direction: row;
