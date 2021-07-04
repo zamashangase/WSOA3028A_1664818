@@ -29,3 +29,19 @@ ts<!DOCTYPE ;html>
 
 </body>
 </html>
+//code for Responsive design javascript//
+const toggle = document.querySelector(".toggle");
+const menu = document.querySelector(".menu");
+/*toggle mobile menu or mobile function*/
+function toggleMenu() {
+    if(menu.classList.contains("active")){
+        menu.classList.remove("active");
+        toggle.querySelector("a").innerHTML = "< class='fas fa-times'></i>";
+    }else{
+        menu.classList.add("active");
+        // adds the close (x) icon
+        toggle.querySelector("a").innerHTML = "< class='fas fa-times'></i>";
+    }
+}
+/*Event Listener*/
+toggle.addEventListener("click", toggleMenu, false);
