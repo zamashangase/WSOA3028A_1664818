@@ -43,5 +43,21 @@ function toggleMenu() {
         toggle.querySelector("a").innerHTML = "< class='fas fa-times'></i>";
     }
 }
-/*Event Listener*/
-toggle.addEventListener("click", toggleMenu, false);
+
+fetch("https://zamashangase.github.io/WSOA3028A_1664818/index.html")
+.then((r) => r.json())
+.then((nandi) => {
+    console.log(nandi);
+    console.log('zama reveived');
+    handleNandi(nandi);
+})
+.catch((error) => console.warn("Our Warning", error));
+
+const handleNandi = (nandisWork) => {
+    document.querySelector("p").innerText = nandisWork.value;
+    document.querySelector("img").src = nandisWork.img1_url;
+    console.log("This website was done by Zama");
+
+    
+};
+console.log('Nandi is a character created by Zama')
